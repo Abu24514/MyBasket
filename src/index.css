@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;600;700&display=swap');
+
+@import "tailwindcss";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .heading, button, nav {
+  font-family: "Poppins", sans-serif;
+}
+
+/* *{
+  border: .1rem solid red;
+} */
