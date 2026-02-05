@@ -6,7 +6,7 @@ const CategoryPage = ({title ,BgImage , categories=[] }) => {
     let filteredItems = categories.includes('All')? ProductList : ProductList.filter(item=>categories.includes(item.category))
     const renderProduct = filteredItems.map(p => {
         return (
-            <Cards image={p.image} name={p.name} price={p.price} bgColor={p.color} peroff={p.perOff} />
+            <Cards key={p.id} image={p.image} name={p.name} price={p.price} bgColor={p.color} peroff={p.perOff} />
         )
     })
     return (

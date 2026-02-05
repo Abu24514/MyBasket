@@ -1,6 +1,6 @@
 import Heading from "../Heading/Heading";
-import DairyAndEggs from "../../assets/dairy-and-eggs.png";
-import SeaFoodCat from "../../assets/meat-and-seafood.png";
+import DairyAndEggs from "../../assets/dairy-and-eggs.webp";
+import SeaFoodCat from "../../assets/meat-and-seafood.webp";
 import { Link } from "react-router-dom";
 const Category = () => {
     const rendercard = category.map(card => {

@@ -1,5 +1,5 @@
 import CategoryPage from "../CategoryPage/CategoryPage";
-import BgAllProduct from "../../assets/all-banner.jpg"
+import BgAllProduct from "../../assets/all-banner.webp"
 
 
 const AllProducts = () => {

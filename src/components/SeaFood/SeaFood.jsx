@@ -1,5 +1,5 @@
 import CategoryPage from "../CategoryPage/CategoryPage"
-import BgSeaFood from "../../assets/seafood-banner.jpg"
+import BgSeaFood from "../../assets/seafood-banner.webp"
 const SeaFood = () => {
   return (
     <div>
